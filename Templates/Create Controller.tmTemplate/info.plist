@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
+   TM_YEAR=`date +%Y` \
+   TM_NEW_FILE_UPPERCASE=`echo $TM_NEW_FILE_BASENAME | perl -pe 's/\S+/\u$&amp;/g'` \
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
+      &lt; controller.php &gt; "$TM_NEW_FILE"
+fi</string>
+	<key>extension</key>
+	<string>php</string>
+	<key>name</key>
+	<string>Create Controller</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>uuid</key>
+	<string>F2EED7BA-261A-4624-A43A-55C4C5329506</string>
+</dict>
+</plist>

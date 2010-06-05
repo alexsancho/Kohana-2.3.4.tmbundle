@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = request::is_ajax();</string>
+	<key>name</key>
+	<string>Request Is Ajax</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>request</string>
+	<key>uuid</key>
+	<string>E3926D93-29FC-40FC-8390-A3283F92467E</string>
+</dict>
+</plist>

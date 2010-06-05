@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = date::adjust(${2:\$hour}, ${3:\$ampm});</string>
+	<key>name</key>
+	<string>Date Adjust</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>date</string>
+	<key>uuid</key>
+	<string>F7CCE7D7-A7E4-4734-B186-36496D3BDF42</string>
+</dict>
+</plist>

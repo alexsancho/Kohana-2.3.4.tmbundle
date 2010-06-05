@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;image = Image::factory(${1:\$image}, ${2:NULL});</string>
+	<key>name</key>
+	<string>Factory Image</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>factory</string>
+	<key>uuid</key>
+	<string>31F624C0-A1C0-4F9E-BB45-272271D0C138</string>
+</dict>
+</plist>

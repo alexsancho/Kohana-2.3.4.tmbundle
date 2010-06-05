@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+// Import the current file
+$file = explode("\n", file_get_contents('php://stdin'));
+$start = getenv('TM_LINE_NUMBER');
+// Loop through lines prior to this line
+for ($i = $start - 1; $i &gt; 0; $i--)
+{
+	switch(substr($line = trim($file[$i]), 0, 2))
+	{
+		// Skip comments
+		case '//': case '/*': case '* ':
+		// Skip empty lines
+		case '': continue 2; break;
+	}
+	// Find a function declaration
+	if (preg_match('/function (.+?)\s*\((.+?)?\)/', $line, $matches))
+	{
+		// No parameters for this method
+		if (empty($matches[2])) $parameters = '';
+		else
+		{
+			$parameters = explode(',', $matches[2]);
+			$total = count($parameters);
+			// Convert the parameters to tabstops
+			for($tabstop = 1; $tabstop &lt;= $total; ++$tabstop)
+			{
+				$parameter = str_replace('$', '\$', trim($parameters[$tabstop-1]));
+				$parameters[$tabstop-1] = "\${{$tabstop}:${parameter}}";
+			}
+			$parameters = implode(', ', $parameters);
+		}
+		// Stop searching
+		echo 'parent::'.$matches[1].'('.$parameters.');$0';
+		break;
+	}
+}
+// End command
+?&gt;</string>
+	<key>input</key>
+	<string>document</string>
+	<key>name</key>
+	<string>parent</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>parent</string>
+	<key>uuid</key>
+	<string>3305C984-08A6-4F71-84EF-FA86B7F43D83</string>
+</dict>
+</plist>

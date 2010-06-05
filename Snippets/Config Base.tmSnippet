@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$config = array
+(
+	'site_domain'          	=&gt; '${1}',
+	'site_protocol'        	=&gt; '${2:http}',
+	'index_page'           	=&gt; '${3:index.php}',
+	'internal_cache'		=&gt; ${4:1800},
+	'url_suffix'           	=&gt; '${5}',
+	'render_stats'		=&gt; ${6:! IN_PRODUCTION},
+	'enable_hooks'		=&gt; ${7:TRUE},
+	'log_threshold'		=&gt; ${8:1},
+	'log_directory'		=&gt; APPPATH.'${9:logs}',
+	'output_compression'   	=&gt; ${10:IN_PRODUCTION},
+	'display_errors'       	=&gt; ${11:! IN_PRODUCTION},
+	'global_xss_filtering' 	=&gt; ${12:FALSE},
+	'extension_prefix'     	=&gt; ${13:'MY_'},
+	'modules'		=&gt; array
+	(
+		MODPATH.'${14:auth}',
+		${15:MODPATH.'${16}'}
+	)
+);</string>
+	<key>name</key>
+	<string>Config Base</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>conf</string>
+	<key>uuid</key>
+	<string>F1AE6FC9-142F-4775-BF5F-24B25AD25FF8</string>
+</dict>
+</plist>

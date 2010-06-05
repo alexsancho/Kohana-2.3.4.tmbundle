@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = email::send(${2:\$to}, ${3:\$from}, ${4:\$subject}, ${5:\$message}, ${6:FALSE});</string>
+	<key>name</key>
+	<string>Email Send</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>email</string>
+	<key>uuid</key>
+	<string>F76429D5-8AAB-44CB-B010-911586A9C7EA</string>
+</dict>
+</plist>

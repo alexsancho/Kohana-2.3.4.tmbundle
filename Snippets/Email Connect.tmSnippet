@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = email::connect(${2:NULL});</string>
+	<key>name</key>
+	<string>Email Connect</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>email</string>
+	<key>uuid</key>
+	<string>E670BB81-E8F7-49F5-9A57-432F58AF5816</string>
+</dict>
+</plist>

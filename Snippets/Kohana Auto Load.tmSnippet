@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = Kohana::auto_load(${2:\$class});</string>
+	<key>name</key>
+	<string>Kohana Auto Load</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>kohana</string>
+	<key>uuid</key>
+	<string>FBECD59B-8316-4E24-A2A5-B16DA8F61B65</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>download::force(${1:\$filename}, ${2:NULL}, ${3:NULL}, ${4:NULL});
+</string>
+	<key>name</key>
+	<string>Download Force</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>download</string>
+	<key>uuid</key>
+	<string>A09E0D4A-97F4-4918-AFC3-25C548196AA3</string>
+</dict>
+</plist>

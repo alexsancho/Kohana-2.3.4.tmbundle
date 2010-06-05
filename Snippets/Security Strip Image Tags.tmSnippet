@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = security::strip_image_tags(${2:\$str});</string>
+	<key>name</key>
+	<string>Security Strip Image Tags</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>security</string>
+	<key>uuid</key>
+	<string>6770EFD1-F4E5-49A5-B25C-A4CED9305786</string>
+</dict>
+</plist>

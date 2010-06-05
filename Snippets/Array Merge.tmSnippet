@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = arr::merge(${2:\$array}, ${3:\$array});</string>
+	<key>name</key>
+	<string>Array Merge</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>arr</string>
+	<key>uuid</key>
+	<string>92D916D6-E4FB-41EA-B87D-F73BC8A3D9DC</string>
+</dict>
+</plist>

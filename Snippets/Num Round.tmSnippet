@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = num::round(${2:\$number}, ${3:5});</string>
+	<key>name</key>
+	<string>Num Round</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>num</string>
+	<key>uuid</key>
+	<string>946811BB-3711-421C-8C3A-5F2A9F4E856C</string>
+</dict>
+</plist>

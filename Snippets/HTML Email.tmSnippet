@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} html::email(${1:\$email}) ?&gt;</string>
+	<key>name</key>
+	<string>HTML Email</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>html</string>
+	<key>uuid</key>
+	<string>071BA6AB-5AA7-460D-BFBE-E889B8AFC000</string>
+</dict>
+</plist>

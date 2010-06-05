@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Kohana::shutdown();</string>
+	<key>name</key>
+	<string>Kohana Shutdown</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>kohana</string>
+	<key>uuid</key>
+	<string>3742FB4B-CE7E-412A-A67B-E5164DF66F90</string>
+</dict>
+</plist>

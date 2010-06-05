@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$config['${1:default}'] = array
+(
+	'driver'   =&gt; '${2:file}',
+	'params'   =&gt; APPPATH.'${3:cache}',
+	'lifetime' =&gt; ${4:1800},
+	'requests' =&gt; ${5:1000}
+);</string>
+	<key>name</key>
+	<string>Config Cache</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>conf</string>
+	<key>uuid</key>
+	<string>376EC83A-2868-483A-9125-3A14465787D4</string>
+</dict>
+</plist>

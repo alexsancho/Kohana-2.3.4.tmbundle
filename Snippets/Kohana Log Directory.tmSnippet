@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = Kohana::log_directory(${2:NULL});</string>
+	<key>name</key>
+	<string>Kohana Log Directory</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>kohana</string>
+	<key>uuid</key>
+	<string>F4F394E5-BB9A-44C7-9D45-357DFB3CD253</string>
+</dict>
+</plist>

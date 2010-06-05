@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;session = Session::instance();</string>
+	<key>name</key>
+	<string>Instance Session</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>instance</string>
+	<key>uuid</key>
+	<string>F91B75B9-56F9-4714-9BAC-493BC504CFC0</string>
+</dict>
+</plist>

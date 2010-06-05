@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = arr::callback_string(${2:\$string});</string>
+	<key>name</key>
+	<string>Array Callback String</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>arr</string>
+	<key>uuid</key>
+	<string>AB2EF4F6-81E6-4A6A-82BB-9595C941CB06</string>
+</dict>
+</plist>

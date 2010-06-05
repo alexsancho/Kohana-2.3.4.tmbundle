@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} form::dropdown(${1:\$data}, ${2:NULL}, ${3:NULL}, ${4:''}) ?&gt;</string>
+	<key>name</key>
+	<string>Form Dropdown</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>D3A3DA7A-3E78-408A-AC9B-087F15BC99FC</string>
+</dict>
+</plist>

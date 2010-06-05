@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = valid::ip(${2:\$ip}, ${3:FALSE}, ${4:TRUE});</string>
+	<key>name</key>
+	<string>Valid IP</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>valid</string>
+	<key>uuid</key>
+	<string>DE36075E-ADFA-42E6-98AB-52A816F6C267</string>
+</dict>
+</plist>

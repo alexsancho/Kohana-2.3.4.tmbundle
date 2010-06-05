@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = valid::url(${2:\$url});</string>
+	<key>name</key>
+	<string>Valid URL</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>valid</string>
+	<key>uuid</key>
+	<string>BDDA13CC-D279-44DA-8798-133B88C94ADD</string>
+</dict>
+</plist>

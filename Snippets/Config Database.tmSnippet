@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$config['${1:default}'] = array
+(
+	'show_errors'   =&gt; ${2:! IN_PRODUCTION},
+	'benchmark'     =&gt; ${3:! IN_PRODUCTION},
+	'persistent'    =&gt; ${4:FALSE},
+	'connection'    =&gt; '${5:mysql}://${6:username}:${7:password}@${8:hostname}/${9:database}',
+	'character_set' =&gt; '${10:utf8}',
+	'table_prefix'  =&gt; '${11}',
+	'object'        =&gt; ${12:TRUE},
+	'cache'         =&gt; ${13:IN_PRODUCTION}
+);</string>
+	<key>name</key>
+	<string>Config Database</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>conf</string>
+	<key>uuid</key>
+	<string>3F18456B-963C-49EF-ACD0-A8910AF99E06</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = text::bytes(${2:\$bytes}, ${3:NULL}, ${4:NULL}, ${5:TRUE});</string>
+	<key>name</key>
+	<string>Text Bytes</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>text</string>
+	<key>uuid</key>
+	<string>54F26B11-0B7E-45A3-BCD7-B039A680B5E9</string>
+</dict>
+</plist>

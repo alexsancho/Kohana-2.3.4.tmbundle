@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Kohana::exception_handler(${1:\$exception}, ${2:NULL}, ${3:NULL}, ${4:NULL});</string>
+	<key>name</key>
+	<string>Kohana Exception Handler</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>kohana</string>
+	<key>uuid</key>
+	<string>68412509-843B-4EAA-B47B-B89562010B03</string>
+</dict>
+</plist>

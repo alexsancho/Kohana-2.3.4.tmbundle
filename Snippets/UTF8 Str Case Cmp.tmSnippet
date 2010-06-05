@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:str} = utf8::strcasecmp(${2:\$str1}, ${3:\$str2});</string>
+	<key>name</key>
+	<string>UTF8 Str Case Cmp</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>utf8</string>
+	<key>uuid</key>
+	<string>CD328439-4DB7-4FE5-9932-8A7099E583D4</string>
+</dict>
+</plist>

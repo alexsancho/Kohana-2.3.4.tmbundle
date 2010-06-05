@@ -1,0 +1,186 @@
+arr::binary_search%integer|FALSE arr::binary_search(mixed needle, array haystack, [bool sort = false])%
+arr::callback_string%array arr::callback_string(string str)%Return a callback array from a string
+arr::extract%array arr::extract(array search, string keys)%Extract one or more keys from an array. Each key given after the first argument (the array) will be extracted. Keys that do not exist in the search array will be NULL in the extracted data
+arr::map_recursive%array arr::map_recursive(mixed callback, array array)%Because PHP does not have this function, and array_walk_recursive creates references in arrays and is not truly recursive
+arr::merge%array arr::merge([array array1], [array array2])%Emulates array_merge_recursive, but appends numeric keys and replaces associative keys, instead of appending all keys
+arr::overwrite%array arr::overwrite(array array1, array array2)%Overwrites an array with values from input array(s).Non-existing keys will not be appended!
+arr::range%array arr::range([int step = 10], [int max = 100])%Fill an array with a range of numbers
+arr::remove%mixed arr::remove(string key, array array)%Removes a key from an array and returns the value
+arr::rotate%array arr::rotate(array source_array, bool keep_keys)%Rotates a 2D array clockwise
+arr::to_object%object arr::to_object(array array, [string class = stdClass])%Recursively convert an array to an object
+arr::unshift_assoc%array arr::unshift_assoc(array array, string key, mixed val)%Because PHP does not have this function
+cookie::delete%bool cookie::delete(string name, [string path = null], [string domain = null])%Nullify and unset a cookie
+cookie::get%string cookie::get(string name, [mixed default = null], [bool xss_clean = false])%Fetch a cookie value, using the Input library
+cookie::set%bool cookie::set(string name, [string value = null], [int expire = null], [string path = null], [string domain = null], [bool secure = null], [bool httponly = null])%Sets a cookie with the given parameters
+date::adjust%string date::adjust(int hour, string ampm)%Adjusts a non-24-hour number into a 24-hour number
+date::ampm%string date::ampm(int hour)%Returns AM or PM, based on a given hour
+date::days%array date::days(int month, [int year = false])%Number of days in month
+date::dos2unix%int date::dos2unix([int timestamp = false])%Converts a DOS timestamp to UNIX format
+date::hours%array date::hours([int step = 1], [bool long = false], [int start = null])%Number of minutes in an hour, incrementing by a step
+date::minutes%array date::minutes([int step = 5])%Number of minutes in an hour, incrementing by a step
+date::months%array date::months()%Number of months in a year
+date::offset%int date::offset(string remote, [string|bool local = true])%Returns the offset (in seconds) between two time zones
+date::seconds%array date::seconds([int step = 1], [int start = 0], [int end = 60])%Number of seconds in a minute, incrementing by a step
+date::timespan%string|array date::timespan(int time1, [int time2 = null], [string output = years,months,weeks,days,hours,minutes,seconds])%Returns time difference between two timestamps, in human readable format
+date::timespan_string%string date::timespan_string(int time1, [int time2 = null], [string output = years,months,weeks,days,hours,minutes,seconds])%Returns time difference between two timestamps, in the format: N year, N months, N weeks, N days, N hours, N minutes, and N seconds ago
+date::unix2dos%int date::unix2dos([int timestamp = false])%Converts a UNIX timestamp to DOS format
+date::years%array date::years([int start = false], [int end = false])%Returns an array of years between a starting and ending year. Uses the current year +/- 5 as the max/min
+download::force%void download::force([string filename = null], [mixed data = null], [string nicename = null])%Force a download of a file to the user's browser. This function is binary-safe and will work with any MIME type that Kohana is aware of
+email::connect%object email::connect([string config = false])%Creates a SwiftMailer instance
+email::send%int email::send(string|array to, string|array from, string subject, string message, [bool html = false])%Send an email message
+expires::check%bool expires::check([int seconds = 60])%Checks to see if a page should be updated or send Not Modified status
+expires::check_headers%bool expires::check_headers()%Check headers already created to not step on download or Img_lib's feet
+expires::set%bool expires::set([int seconds = 60])%Sets the amount of time before a page expires
+feed::create%string feed::create(array info, array items, [string format = rss2], [string encoding = UTF-8])%Creates a feed from the given parameters
+feed::parse%array feed::parse(string feed, [int limit = 0])%Parses a remote feed into an array
+file::join%int file::join(string filename, [string output = false])%Join a split file into a whole file
+file::mime%string|bool file::mime(string filename)%Attempt to get the mime type from a file. This method is horribly unreliable, due to PHP being horribly unreliable when it comes to determining the mime-type of a file
+file::split%int file::split(string filename, [string output_dir = false], [int piece_size = 10])%Split a file into pieces matching a specific size
+form::attributes%string form::attributes(array attr, [string type = null])%Sorts a key/value array of HTML attributes, putting form attributes first, and returns an attribute string
+form::button%string form::button([string|array data = ''], [string value = ''], [string extra = ''])%Creates an HTML form button input tag
+form::checkbox%string form::checkbox(string|array data, [string value = ''], [bool checked = false], [string extra = ''])%Creates an HTML form checkbox input tag
+form::close%string form::close([string extra = ''])%Closes an open form tag
+form::close_fieldset%string form::close_fieldset()%Generates a fieldset closing tag
+form::dropdown%string form::dropdown(string|array data, [array options = null], [string|array selected = null], [string extra = ''])%Creates an HTML form select tag, or "dropdown menu"
+form::hidden%string form::hidden(string|array data, [string value = ''])%Generates hidden form fields. You can pass a simple key/value string or an associative array with multiple values
+form::input%string form::input(string|array data, [string value = ''], [string extra = ''])%Creates an HTML form input tag. Defaults to a text type
+form::label%string form::label([string|array data = ''], [string text = null], [string extra = ''])%Creates an HTML form label tag
+form::legend%string form::legend([string text = ''], [array data = null], [string extra = ''])%Generates a legend tag for use with a fieldset
+form::open%string form::open([string action = null], [array attr = array()], [array hidden = null])%Generates an opening HTML form tag
+form::open_fieldset%string form::open_fieldset([array data = null], [string extra = ''])%Generates a fieldset opening tag
+form::open_multipart%string form::open_multipart([string action = null], [array attr = array()], [array hidden = array()])%Generates an opening HTML form tag that can be used for uploading files
+form::password%string form::password(string|array data, [string value = ''], [string extra = ''])%Creates an HTML form password input tag
+form::radio%string form::radio(string|array data, [string value = ''], [bool checked = false], [string extra = ''])%Creates an HTML form radio input tag
+form::submit%string form::submit(string|array data, [string value = ''], [string extra = ''])%Creates an HTML form submit input tag
+form::textarea%string form::textarea(string|array data, [string value = ''], [string extra = ''], [bool double_encode = true])%Creates an HTML form textarea tag
+form::upload%string form::upload(string|array data, [string value = ''], [string extra = ''])%Creates an HTML form upload input tag
+format::phone%string format::phone(string number, [string format = 3-3-4])%Formats a phone number according to the specified format
+format::url%string format::url([string str = ''])%Formats a URL to contain a protocol at the beginning
+html::anchor%string html::anchor(string uri, [string title = null], [array attributes = null], [string protocol = null], [bool escape_title = false])%Create HTML link anchors
+html::attributes%string html::attributes(string|array attrs)%Compiles an array of HTML attributes into an attribute string
+html::breadcrumb%string html::breadcrumb([array segments = null])%Generate a "breadcrumb" list of anchors representing the URI
+html::email%string html::email(string email)%Generates an obfuscated version of an email address
+html::file_anchor%string html::file_anchor(string file, [string title = null], [array attributes = null], [string protocol = null])%Creates an HTML anchor to a file
+html::image%string html::image([string src = null], [string|array alt = null], [bool index = false])%Creates a image link
+html::link%string html::link(string|array href, string|array rel, string|array type, [string suffix = false], [string|array media = false], [bool index = false])%Creates a link tag
+html::mailto%string html::mailto(string email, [string title = null], [array attributes = null])%Creates an email anchor
+html::meta%string html::meta(string|array tag, [string value = null])%Creates a meta tag
+html::panchor%string html::panchor(string protocol, string uri, [string title = null], [array attributes = false])%Similar to anchor, but with the protocol parameter first
+html::script%string html::script(string|array script, [bool index = false])%Creates a script link
+html::specialchars%string html::specialchars(string str, [bool double_encode = true])%Convert special characters to HTML entities
+html::specialurlencode%string html::specialurlencode(string str, [bool double_encode = true])%Perform a html::specialchars() with additional URL specific encoding
+html::stylesheet%string html::stylesheet(string|array style, [string|array media = false], [bool index false])%Creates a stylesheet link
+inflector::camelize%string inflector::camelize(string str)%Makes a phrase camel case
+inflector::humanize%string inflector::humanize(string str)%Makes an underscored or dashed phrase human-readable
+inflector::plural%string inflector::plural(string str, [int count = null])%Makes a singular word plural
+inflector::singular%string inflector::singular(string str, [int count = null])%Makes a plural word singular
+inflector::uncountable%bool inflector::uncountable(string str)%Checks if a word is defined as uncountable
+inflector::underscore%string inflector::underscore(string str)%Makes a phrase underscored instead of spaced
+num::round%int num::round(int number, [int nearest = 5])%Round a number to the nearest nth
+remote::status%int|bool remote::status(str url)%Checks the status of a remote url
+request::accepts%bool request::accepts([string type = null], [bool explicit_check = false])%Returns boolean of whether client accepts content type.
+request::accepts_at_quality%integer|float request::accepts_at_quality([string type = null], [bool explicit_check = false])%Returns quality factor at which the client accepts content type
+request::is_ajax%bool request::is_ajax()%Tests if the current request is an AJAX request by checking the X-Requested-With HTTP request header that most popular JS frameworks now set for AJAX calls
+request::method%exception|string request::method()%Returns current request method
+request::preferred_accept%string|bool request::preferred_accept(array types, [bool explicit_check = false])%Compare the q values for given array of content types and return the one with the highest value. If items are found to have the same q value, the first one encountered in the given array wins. If all items in the given array have a q value of 0, FALSE is returned
+request::protocol%string request::protocol()%Returns the current request protocol, based on $_SERVER['https']. In CLI mode, NULL will be returned
+request::referrer%string request::referrer([mixed default = false])%Returns the HTTP referrer, or the default if the referrer is not set
+security::encode_php_tags%string security::encode_php_tags(string str)%Remove PHP tags from a string
+security::strip_image_tags%string security::strip_image_tags(string str)%Remove image tags from a string
+security::xss_clean%string security::xss_clean(string str)%Sanitize a string with the xss_clean method
+text::alternate%string text::alternate(string text1, string text2, [string text3])%Alternates between two or more strings
+text::auto_link%string text::auto_link(string text)%Converts text email addresses and anchors into links
+text::auto_link_emails%string text::auto_link_emails(string text)%Converts text email addresses into links
+text::auto_link_urls%string text::auto_link_urls(string text)%Converts text anchors into links
+text::auto_p%string text::auto_p(string str)%Automatically applies <p> and <br /> markup to text. Basically nl2br() on steroids
+text::bytes%string text::bytes(int bytes, [string force_unit = null], [string format = null], [bool si = true])%Returns human readable sizes
+text::censor%string text::censor(string str, array badwords, [string replacement = #], [bool replace_partial_words = false])%Replaces the given words with a string
+text::limit_chars%string text::limit_chars(string str, [int limit = 100], [string end_char = null], [bool preserve_words = false])%Limits a phrase to a given number of characters
+text::limit_words%string text::limit_words(string str, [int limit = 100], [string end_char = null])%Limits a phrase to a given number of words
+text::random%string text::random([string type = alnum], [int length = 8])%Generates a random string of a given type and length
+text::reduce_slashes%string text::reduce_slashes(string str)%Reduces multiple slashes in a string to single slashes
+text::similar%string text::similar(array words)%Finds the text that is similar between a set of words
+text::widont%string text::widont(string str)%Prevents widow words by inserting a non-breaking space between the last two words
+upload::required%bool upload::required(array file)%Tests if input data has valid upload data
+upload::save%string upload::save(string|array file, [string filename = null], [string directory = null], [int chmod = 0644])%Save an uploaded file to a new location
+upload::size%bool upload::size(array file, array size)%Validation rule to test if an uploaded file is allowed by file size. File sizes are defined as: SB, where S is the size (1, 15, 300, etc) and B is the byte modifier: (B)ytes, (K)ilobytes, (M)egabytes, (G)igabytes
+upload::type%bool upload::type(array file, array allowed_types)%Validation rule to test if an uploaded file is allowed by extension
+upload::valid%bool upload::valid(array file)%Tests if input data is valid file type, even if no upload is present
+url::base%string url::base([bool index = false], [bool protocol = false])%Base URL, with or without the index page
+url::current%string url::current([bool qs = false])%Fetches the current URI
+url::file%string url::file(string file, [bool index = false])%Return the URL to a file. Absolute filenames and relative filenames are allowed
+url::merge%string url::merge(array arguments)%Merges an array of arguments with the current URI and query string to overload, instead of replace, the current query string
+url::redirect%void url::redirect([string|array uri = ''], [string method = 302])%Sends a page redirect header and runs the system.redirect Event
+url::site%string url::site([string uri = ''], [string protocol = false])%Fetches an absolute site URL based on a URI segment
+url::title%string url::title(string title, [string separator = -])%Convert a phrase to a URL-safe title
+utf8::clean%string utf8::clean(string str)%Recursively cleans arrays, objects, and strings. Removes ASCII control codes and converts to UTF-8 while silently discarding incompatible UTF-8 characters
+utf8::from_unicode%string|bool utf8::from_unicode(array arr)%Takes an array of ints representing the Unicode characters and returns a UTF-8 string. Astral planes are supported i.e. the ints in the input can be > 0xFFFF. Occurrances of the BOM are ignored. Surrogates are not allowed
+utf8::is_ascii%bool utf8::is_ascii(string str)%Tests whether a string contains only 7bit ASCII bytes. This is used to determine when to use native functions or UTF-8 functions
+utf8::ltrim%string utf8::ltrim(string str, [string charlist = null])%Strips whitespace (or other UTF-8 characters) from the beginning of a string
+utf8::ord%int utf8::ord(string chr)%Returns the unicode ordinal for a character
+utf8::rtrim%string utf8::rtrim(string str, [string charlist = null])%Strips whitespace (or other UTF-8 characters) from the end of a string
+utf8::strcasecmp%int utf8::strcasecmp(string str1, string str2)%Case-insensitive UTF-8 string comparison
+utf8::strcspn%int utf8::strcspn(string str, string mask, [int offset = null], [int length = null])%Finds the length of the initial segment not matching mask
+utf8::strip_ascii_ctrl%string utf8::strip_ascii_ctrl(string str)%Strips out device control codes in the ASCII range
+utf8::strip_non_ascii%string utf8::strip_non_ascii(string str)%Strips out all non-7bit ASCII bytes
+utf8::stristr%string|bool utf8::stristr(string str, string search)%Case-insenstive UTF-8 version of strstr. Returns all of input string from the first occurrence of needle to the end
+utf8::strlen%int utf8::strlen(string str)%Returns the length of the given string
+utf8::strpos%bool utf8::strpos(string str, string search, [int offset = 0])%Finds position of first occurrence of a UTF-8 string
+utf8::strrev%string utf8::strrev(string str)%Reverses a UTF-8 string
+utf8::strrpos%bool utf8::strrpos(string str, string search, [int offset = 0])%Finds position of last occurrence of a char in a UTF-8 string
+utf8::strspn%int utf8::strspn(string str, string mask, [int offset = null], [int lenght = null])%Finds the length of the initial segment matching mask
+utf8::strtolower%string utf8::strtolower(string str)%Makes a UTF-8 string lowercase
+utf8::strtoupper%string utf8::strtoupper(string str)%Makes a UTF-8 string uppercase
+utf8::str_ireplace%string|array utf8::str_ireplace(string|array search, string|array replace, string|array str, [int count = null])%Returns a string or an array with all occurrences of search in subject (ignoring case) replaced with the given replace value
+utf8::str_pad%string utf8::str_pad(string str, int final_str_length, [string pad_str = ' '], [string pad_type = STR_PAD_RIGHT])%Pads a UTF-8 string to a certain length with another string
+utf8::str_split%array utf8::str_split(string str, [int split_length = 1])%Converts a UTF-8 string to an array
+utf8::substr%string utf8::substr(string str, int offset, [int length = null])%Returns part of a UTF-8 string
+utf8::substr_replace%string utf8::substr_replace(string str, string replacement, int offset, [int lenght = null])%Replaces text within a portion of a UTF-8 string
+utf8::to_unicode%array|bool utf8::to_unicode(string str)%Takes an UTF-8 string and returns an array of ints representing the Unicode characters. Astral planes are supported i.e. the ints in the output can be > 0xFFFF. Occurrances of the BOM are ignored. Surrogates are not allowed
+utf8::transliterate_to_ascii(string str, [int case = 0])%Replaces special/accented UTF-8 characters by ASCII-7 'equivalents'
+utf8::trim%string utf8::trim(string str, [string charlist = null])%Strips whitespace (or other UTF-8 characters) from the beginning and end of a string
+utf8::ucfirst%string utf8::ucfirst(string str)%Makes a UTF-8 string's first character uppercase
+utf8::ucwords%string utf8::ucwords(string str)%Makes the first character of every word in a UTF-8 string uppercase
+valid::alpha%bool valid::alpha(string str, [bool utf8 = false])%Checks whether a string consists of alphabetical characters only
+valid::alpha_dash%bool valid::alpha_dash(string str, [bool utf8 = false])%Checks whether a string consists of alphabetical characters, numbers, underscores and dashes only
+valid::alpha_digit%bool valid::alpha_digit(string str, [bool utf8 = false])%Checks whether a string consists of digits only (no dots or dashes)
+valid::alpha_numeric%bool valid::alpha_numeric(string str, [bool utf8 = false])%Checks whether a string consists of alphabetical characters and numbers only
+valid::credit_card%bool valid::credit_card(int number, [string|array type = null])%Validates a credit card number using the Luhn (mod10) formula
+valid::date%bool valid::date(string str)%Tests if a string is a valid date string
+valid::decimal%bool valid::decimal(string str, [array format = null])%Checks if a string is a proper decimal format. The format array can be used to specify a decimal length, or a number and decimal length
+valid::email%bool valid::email(string email)%Validate email, commonly used characters only
+valid::email_domain%bool valid::email_domain(string email)%Validate the domain of an email address by checking if the domain has a valid MX record
+valid::email_rfc%bool valid::email_rfc(string email)%Validate email, RFC compliant version
+valid::ip%bool valid::ip(string ip, [bool ipv6 = false], [bool allow_private = true])%Validate IP
+valid::numeric%bool valid::numeric(string str)%Checks whether a string is a valid number (negative and decimal numbers allowed)
+valid::phone%bool valid::phone(string number, [array lengths = null])%Checks if a phone number is valid
+valid::standard_text%bool valid::standard_text(string str)%Checks whether a string is a valid text. Letters, numbers, whitespace, dashes, periods, and underscores are allowed
+valid::url%bool valid::url(string url)%Validate URL
+kohana::setup%void kohana::setup()%Sets up the PHP environment. Adds error/exception handling, output buffering, and adds an auto-loading method for loading classes. This method is run immediately when this file is loaded, and is benchmarked as environment_setup. For security, this function also destroys the $_REQUEST global variable. Using the proper global (GET, POST, COOKIE, etc) is inherently more secure. The recommended way to fetch a global variable is using the Input library
+kohana::instance%object kohana::instance()%Loads the controller and initializes it. Runs the pre_controller, post_controller_constructor, and post_controller events. Triggers a system.404 event when the route cannot be mapped to a controller. This method is benchmarked as controller_setup and controller_execution
+kohana::include_paths%array kohana::include_paths([bool process = false])%Get all include paths. APPPATH is the first path, followed by module paths in the order they are configured, follow by the SYSPATH
+kohana::config%mixed kohana::config(string key, [bool slash = false], [bool required = true])%Get a config item or group
+kohana::config_set%bool kohana::config_set(string key, string value)%Sets a configuration item, if allowed
+kohana::config_load%array kohana::config_load(string name, [bool required true])%Load a config file
+kohana::congig_clear%void kohana::congig_clear(string group)%Clears a config group from the cached configuration
+kohana::log%void kohana::log(string type, string message)%Add a new message to the log
+kohana::log_save%void kohana::log_save()%Save all currently logged messages
+kohana::log_directory%string kohana::log_directory([string dir = null])%Get or set the logging directory
+kohana::cache%mixed kohana::cache(string name, int lifetime)%Load data from a simple cache file. This should only be used internally, and is NOT a replacement for the Cache library
+kohana::cache_save%bool kohana::cache_save(string name, mixed data, int lifetime)%Save data to a simple cache file. This should only be used internally, and is NOT a replacement for the Cache library
+kohana::output_buffer%string kohana::output_buffer(string output)%Kohana output handler. Called during ob_clean, ob_flush, and their variants
+kohana::close_buffers%void kohana::close_buffers([bool flush = true])%Closes all open output buffers, either by flushing or cleaning, and stores the Kohana output buffer for display during shutdown
+kohana::shutdown%void kohana::shutdown()%Triggers the shutdown of Kohana by closing the output buffer, runs the system.display event
+kohana::render%void kohana::render(string output)%Inserts global Kohana variables into the generated output and prints it
+kohana::show_404%void kohana::show_404([string page = false], [string template = false])%Displays a 404 page
+kohana::exception_handler%void kohana::exception_handler(integer|object exception, [string message = null], [string file = null], [int line = null])%Dual-purpose PHP error and exception handler. Uses the kohana_error_page view to display the message
+kohana::auto_load%bool kohana::auto_load(string class)%Provides class auto-loading
+kohana::find_file%array|string|bool kohana::find_file(string directory, string filename, [bool required = false], [string ext = false])%Find a resource file in a given directory. Files will be located according to the order of the include paths. Configuration and i18n files will be returned in reverse order
+kohana::list_files%array kohana::list_files(string directory, [bool recursive = false], [string path = false])%Lists all files and directories in a resource path
+kohana::lang%string kohana::lang(string key, [array args = array()])%Fetch an i18n language item
+kohana::key_string%string|void kohana::key_string(array array, string keys)%Returns the value of a key, defined by a 'dot-noted' string, from an array
+kohana::key_string_set%mixed|void kohana::key_string_set(array array, string keys, [mixed fill = null])%Sets values in an array by using a 'dot-noted' string
+kohana::user_agent%array|string|bool kohana::user_agent([string key = agent], [string compare = null])%Retrieves current user agent information
+kohana::debug%string kohana::debug()%Quick debugging of any variable. Any number of parameters can be set
+kohana::backtrace%string kohana::backtrace(array trace)%Displays nice backtrace information
+kohana::internal_cache_save%bool kohana::internal_cache_save()%Saves the internal caches: configuration, include paths, etc

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:str} = utf8::substr_replace(${2:\$str}, ${3:\$replacement}, ${4:\$offset}, ${5:NULL});</string>
+	<key>name</key>
+	<string>UTF8 Substr Replace</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>utf8</string>
+	<key>uuid</key>
+	<string>3A81FD39-D59E-47E9-BC89-3F75D07DF7F6</string>
+</dict>
+</plist>

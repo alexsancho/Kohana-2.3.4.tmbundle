@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$config['${1:default}'] = array
+(
+	'directory'      =&gt; '${2:pagination}',
+	'style'          =&gt; '${3:classic}',
+	'uri_segment'    =&gt; ${4:3},
+	'query_string'   =&gt; '${5}',
+	'items_per_page' =&gt; ${6:20},
+	'auto_hide'      =&gt; ${7:FALSE},
+);
+</string>
+	<key>name</key>
+	<string>Config Pagination</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>conf</string>
+	<key>uuid</key>
+	<string>96980C77-5AAF-4FA1-B58C-9B964C4CBC93</string>
+</dict>
+</plist>

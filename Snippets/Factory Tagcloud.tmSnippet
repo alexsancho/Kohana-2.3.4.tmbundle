@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;tagcloud = Tagcloud::factory(${1:\$elements}, ${2:NULL}, ${3:NULL}, ${4:FALSE});</string>
+	<key>name</key>
+	<string>Factory Tagcloud</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>factory</string>
+	<key>uuid</key>
+	<string>24DA4FA7-B8E9-41F1-AA98-D7B2617F6577</string>
+</dict>
+</plist>

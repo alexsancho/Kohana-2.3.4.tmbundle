@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;captcha = Captcha::factory(${1:NULL});</string>
+	<key>name</key>
+	<string>Factory Captcha</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>factory</string>
+	<key>uuid</key>
+	<string>B384D9CA-FA3E-406C-8757-266209BA7368</string>
+</dict>
+</plist>

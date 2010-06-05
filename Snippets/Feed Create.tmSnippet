@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = feed::create(${2:\$info}, ${3:\$items}, ${4:'rss2'}, ${5:'UTF-8'});</string>
+	<key>name</key>
+	<string>Feed Create</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>feed</string>
+	<key>uuid</key>
+	<string>01933B69-8B55-468C-8EAF-45BCAD469FE9</string>
+</dict>
+</plist>

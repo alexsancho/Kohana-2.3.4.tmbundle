@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = valid::credit_card(${2:\$number}, ${3:NULL});</string>
+	<key>name</key>
+	<string>Valid Credit Card</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>valid</string>
+	<key>uuid</key>
+	<string>68A44F2D-FF05-4B17-9C68-2A3CCFDA0C4B</string>
+</dict>
+</plist>

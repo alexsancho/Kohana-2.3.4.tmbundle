@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$config = array
+(
+	'driver'          =&gt; '${1:cookie}',
+	'storage'         =&gt; '${2}',
+	'name'            =&gt; '${3:kohanasession}',
+	'validate'        =&gt; array('${4:user_agent/ip_address/expiration}'),
+	'encryption'      =&gt; ${5:FALSE},
+	'expiration'      =&gt; ${6:7200},
+	'regenerate'      =&gt; ${7:3},
+	'gc_probability'  =&gt; ${8:2}
+);</string>
+	<key>name</key>
+	<string>Config Session</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>conf</string>
+	<key>uuid</key>
+	<string>775950A0-5C19-4CD4-B5EF-2F20E12B4307</string>
+</dict>
+</plist>

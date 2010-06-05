@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Kohana::show_404(${1:FALSE}, ${2:FALSE});</string>
+	<key>name</key>
+	<string>Kohana Show 404</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>kohana</string>
+	<key>uuid</key>
+	<string>430E378B-92E8-4A76-A344-500A7B07BA7C</string>
+</dict>
+</plist>

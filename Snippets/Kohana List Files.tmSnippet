@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = Kohana::list_files(${2:\$directory}, ${3:FALSE}, ${4:FALSE});</string>
+	<key>name</key>
+	<string>Kohana List Files</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>kohana</string>
+	<key>uuid</key>
+	<string>EDCD47D2-D777-431A-BC41-EF21D40FA1BF</string>
+</dict>
+</plist>

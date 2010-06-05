@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = text::censor(${2:\$str}, ${3:\$badwords}, ${4:'#'}, ${5:FALSE});</string>
+	<key>name</key>
+	<string>Text Censor</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>text</string>
+	<key>uuid</key>
+	<string>9411FFD6-C731-4876-A960-1599215A254C</string>
+</dict>
+</plist>

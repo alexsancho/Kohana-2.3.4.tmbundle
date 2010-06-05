@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;pagination = Pagination::factory(${1:array()});</string>
+	<key>name</key>
+	<string>Factory Pagination</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>factory</string>
+	<key>uuid</key>
+	<string>539E5B71-7525-459D-8F54-C5A5DE38686E</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = date::ampm(${2:\$hour});</string>
+	<key>name</key>
+	<string>Date AM/PM</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>date</string>
+	<key>uuid</key>
+	<string>4BB6B76A-15B9-441C-ACD4-BAFB71665BB6</string>
+</dict>
+</plist>

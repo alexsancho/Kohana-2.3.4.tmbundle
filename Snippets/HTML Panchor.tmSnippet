@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} html::panchor(${1:\$protocol}, ${2:\$uri}, ${3:NULL}, ${4:FALSE}) ?&gt;</string>
+	<key>name</key>
+	<string>HTML Panchor</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>html</string>
+	<key>uuid</key>
+	<string>C57CAF1C-F800-48D2-808F-4F27CD2EE1E0</string>
+</dict>
+</plist>

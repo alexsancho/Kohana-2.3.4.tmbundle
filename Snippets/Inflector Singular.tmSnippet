@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = inflector::singular(${2:\$str}, ${3:NULL});</string>
+	<key>name</key>
+	<string>Inflector Singular</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>inflector</string>
+	<key>uuid</key>
+	<string>419E1CFC-759F-4F01-970C-D4FC7793BDAC</string>
+</dict>
+</plist>

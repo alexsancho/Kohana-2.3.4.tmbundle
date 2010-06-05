@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
+   TM_YEAR=`date +%Y` \
+   TM_NEW_FILE_UPPERCASE=`echo $TM_NEW_FILE_BASENAME | perl -pe 's/\S+/\u$&amp;/g'` \
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
+      &lt; orm.php &gt; "$TM_NEW_FILE"
+fi</string>
+	<key>extension</key>
+	<string>php</string>
+	<key>name</key>
+	<string>Create ORM</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>uuid</key>
+	<string>AF4D5E82-96BC-4833-A0B8-E0C99DFEB803</string>
+</dict>
+</plist>

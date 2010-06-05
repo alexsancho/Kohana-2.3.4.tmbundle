@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = arr::binary_search(${2:\$needle}, ${3:\$haystack}, ${4:FALSE});</string>
+	<key>name</key>
+	<string>Array Binary Search</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>arr</string>
+	<key>uuid</key>
+	<string>642F484B-5C63-4B9C-BE37-808E113550F5</string>
+</dict>
+</plist>

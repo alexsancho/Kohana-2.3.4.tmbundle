@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = inflector::uncountable(${2:\$str});</string>
+	<key>name</key>
+	<string>Inflector Uncountable</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>inflector</string>
+	<key>uuid</key>
+	<string>635BF15D-A2E5-47F3-817E-CA21F743E638</string>
+</dict>
+</plist>

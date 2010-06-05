@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = expires::set(${2:60});</string>
+	<key>name</key>
+	<string>Expires Set</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>expires</string>
+	<key>uuid</key>
+	<string>76CAE15E-86C2-4F6C-BBCD-8ADD7DFE4DF5</string>
+</dict>
+</plist>

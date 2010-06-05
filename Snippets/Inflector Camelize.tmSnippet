@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = inflector::camelize(${2:\$str});</string>
+	<key>name</key>
+	<string>Inflector Camelize</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>inflector</string>
+	<key>uuid</key>
+	<string>C66D072D-D7B2-40A6-A42C-A5EECBF19531</string>
+</dict>
+</plist>

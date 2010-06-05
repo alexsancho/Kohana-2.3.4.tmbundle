@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$config = array
+(
+	'driver'       =&gt; '${1:ORM}',
+	'hash_method'  =&gt; '${2:sha1}',
+	'salt_pattern' =&gt; '${3}, ${4}, ${5}, ${6}, ${7}, ${8}, ${9}, ${10}, ${11}, ${12}',
+	'lifetime'     =&gt; ${13:1209600},
+	'session_key'  =&gt; '${14:auth_user}',
+	'users'        =&gt; array
+	(
+		${15:'${16:admin}' =&gt; '${17:b3154acf3a344170077d11bdb5fff31532f679a1919e716a02}'}
+	)
+);</string>
+	<key>name</key>
+	<string>Config Auth</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>conf</string>
+	<key>uuid</key>
+	<string>201FEF01-1BCC-4B36-824C-D772B556F408</string>
+</dict>
+</plist>

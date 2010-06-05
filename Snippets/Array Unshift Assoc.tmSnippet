@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = arr::unshift_assoc(${2:\$array}, ${3:\$key}, ${4:\$val});</string>
+	<key>name</key>
+	<string>Array Unshift Assoc</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>arr</string>
+	<key>uuid</key>
+	<string>14ABAF18-0ABB-4F6A-A6DC-27DFBB98DE48</string>
+</dict>
+</plist>

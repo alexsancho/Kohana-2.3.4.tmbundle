@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = upload::type(${2:\$file}, ${3:\$allowed_types});</string>
+	<key>name</key>
+	<string>Upload Type</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>upload</string>
+	<key>uuid</key>
+	<string>28FB5DD5-3C60-44AD-88B6-76D930EE11C6</string>
+</dict>
+</plist>

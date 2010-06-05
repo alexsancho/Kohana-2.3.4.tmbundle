@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:str} = utf8::str_pad(${2:\$str}, ${3:\$final_str_length}, ${4:' '}, ${5:STR_PAD_RIGHT});</string>
+	<key>name</key>
+	<string>UTF8 Str Pad</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>utf8</string>
+	<key>uuid</key>
+	<string>8C045B68-2603-4893-B1C6-6D5EBC6B5176</string>
+</dict>
+</plist>

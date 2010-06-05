@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var} = date::timespan(${2:\$time1}, ${3:NULL}, ${4:'years,months,weeks,days,hours,minutes,seconds'});</string>
+	<key>name</key>
+	<string>Date Timespan</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>date</string>
+	<key>uuid</key>
+	<string>E6261EA8-CEE2-43A1-82EA-0BB318B2C420</string>
+</dict>
+</plist>
